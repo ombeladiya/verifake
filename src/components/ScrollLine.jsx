@@ -17,7 +17,7 @@ const ScrollLine = () => {
     }, []);
 
     return (
-        <div className="fixed top-0 left-1/2 transform -translate-x-1/2 h-full w-[1.5px] ml-[0.5px] bg-gray-400">
+        <div className="fixed sm:block top-0 hidden left-1/2 transform -translate-x-1/2 h-full w-[1.5px] ml-[0.5px] bg-gray-400">
             <div
                 style={{ height: `${scrollHeight}%`, background: 'linear-gradient(to bottom, #FF5733, #FFC300)', }}
                 className=" w-full"
