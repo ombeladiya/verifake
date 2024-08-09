@@ -1,4 +1,4 @@
-import ScrollLine from "@/components/scrollLine";
+import ScrollLine from "@/components/ScrollLine";
 
 export default function Home() {
   return (
